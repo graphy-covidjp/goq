@@ -1,8 +1,8 @@
 # goq
 [![Build Status](https://travis-ci.org/andrewstuart/goq.svg?branch=master)](https://travis-ci.org/andrewstuart/goq)
-[![GoDoc](https://godoc.org/astuart.co/goq?status.svg)](https://godoc.org/astuart.co/goq)
+[![GoDoc](https://godoc.org/github.com/graphy-covidjp/goq?status.svg)](https://godoc.org/astuart.co/goq)
 [![Coverage Status](https://coveralls.io/repos/github/andrewstuart/goq/badge.svg?branch=master)](https://coveralls.io/github/andrewstuart/goq?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/astuart.co/goq)](https://goreportcard.com/report/astuart.co/goq)
+[![Go Report Card](https://goreportcard.com/badge/github.com/graphy-covidjp/goq)](https://goreportcard.com/report/astuart.co/goq)
 
 ## Example
 
@@ -11,7 +11,7 @@ import (
 	"log"
 	"net/http"
 
-	"astuart.co/goq"
+	"github.com/graphy-covidjp/goq"
 )
 
 // Structured representation for github file name table
@@ -42,7 +42,7 @@ func main() {
 
 # goq
 --
-    import "astuart.co/goq"
+    import "github.com/graphy-covidjp/goq"
 
 Package goq was built to allow users to declaratively unmarshal HTML into go
 structs using struct tags composed of css selectors.
